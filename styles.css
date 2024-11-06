@@ -1,0 +1,62 @@
+*{ box-sizing: border-box;}
+
+/* login page styles */
+body{ background-color: rgb(234, 193, 234);}
+#container{ height: 300px; width:300px; border-radius: 20px; margin: 150px auto;}
+#loginDiv{ height: 300px; width: 300px; border-radius: 20px; box-shadow: 5px 5px 5px white; background-color: white;}
+#heading{ text-align: center; font-size: 40px; margin-top: 0px;}
+#mail,#pass{ height:40px; width:80%; margin: 0 0 15px 10%; border:0; font-size: 16px;}
+#loginbtn{ height:40px; width:80%; margin-left: 10%; background: linear-gradient(to right, #E100FF, #7F00FF); font-size: 20px; border:0; cursor: pointer; margin-top: 20px; color:white;}
+input:focus{ border: none; outline:none;}
+#notice{ text-align: center; font-size: 18px;}
+#ehr,#phr{ width:80%; margin-top: -15px;}
+span{ color: blue; cursor: pointer;}
+#wrong_email{ color: red; position: absolute; top:38%; left: 10%; display: none;}
+#wrong_pass{ color: red; position: absolute; top:55%; left: 10%; display: none;}
+
+/* sign up page styles */
+#signupDiv{ height: 440px; width: 300px; border-radius: 20px; box-shadow: 5px 5px 5px white; display: none; background-color: white;}
+#heading2{ text-align: center; font-size: 40px; margin-top: 0;}
+#name,#smail,#phone,#spass,#signbtn{ height: 40px; width:80%; margin: 0 0 15px 10%; border:0; font-size: 16px;}
+.shr{ width:80%; margin-top: -15px;}
+#signbtn{ height: 40px; width:80%; margin-left: 3%; background: linear-gradient(to right, #E100FF, #7F00FF); font-size: 20px; border:0; cursor: pointer; color: white}
+i{ position: relative; left:-10px; top: 2px;}
+#loginnote{ font-size: 18px; text-align: center; margin-top: -25px;}
+#warning{ position: absolute; top:45%; left:42%; color: red;display: none;}
+
+/* upload profile styles */
+body{ overflow: hidden;}
+#upload_profile_div{ height: 325px; width:300px; border-radius: 20px; margin: 150px auto;  box-shadow: 5px 5px 5px white; background: white; position: relative; overflow: hidden; margin-bottom: 300px;;}
+#profile_div{ height: 150px; width: 150px; border: 3px solid rgba(0, 0, 0, 0.401); border-radius: 50%; position: absolute; left:26%; top:10%; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.401); overflow: hidden;}
+#profile_account_icon{ font-size: 130px; position: absolute; left:10%; top:12%; color: rgba(0, 0, 0, 0.589);}
+#input_profile{ height: 147px; width: 147px; border: 1px solid black; position: absolute; left:26%; top:10%; border-radius: 50%; opacity: 0;}
+#profile_div_username{ color: black; margin-top: 65%; margin-bottom: 0;}
+#profile_div_nextbtn{ height:40px; width:80%; margin-left: 11%; background: linear-gradient(to right, #E100FF, #7F00FF); font-size: 20px; border:0; cursor: pointer; margin-top: 20px; color:white;}
+#profile_div_nextbtn i{ margin-left: 5%;}
+#plus_icon{ font-size: 30px; position: absolute; color: rgba(0, 0, 0, 0.589); left: 63%; top: 44%;}
+
+
+/* The main Profile body styles */
+body{ margin: 0; padding: 0;}
+#main_container{ width: 100%;}
+#profile_header{ height: 150px; width: 100%; background-image: url("images/sky.jpeg"); background-size: cover; background-position: top;}
+#profile_picture{ height: 200px; width: 200px; background-color: #E100FF; border-radius: 50%; box-shadow: 0 0 5px white; border: 3px solid white; margin: -80px auto;}
+#main_container_username{ text-align: center; margin: 90px 0 0 0; font-size: 40px;}
+
+#apps_section{ height: 300px; width: 100%; display: flex; align-items: center; justify-content: center;}
+#contact_section,#videoPlayer_section,#logout_section{ height: 200px; width:200px; background-color: white; margin-left: 50px; border-radius: 40px; display: flex;}
+#contact_section:hover, #videoPlayer_section:hover,#logout_section:hover{ 
+    box-shadow: 5px 5px 5xp red;
+    width: 210px; height: 210px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+#contact_icon,#video_icon,#logout_icon{ font-size: 80px; margin-top: 30px; margin-left: 33%; color: #8d037a;}
+#contact_heading,#video_heading,#logout_heading{ font-size: 25px; margin-top: 60%; color: #8d037a; font-weight: bold;}
+#contact_heading{ margin-left: -44%;}
+#video_heading{ margin-left: -55%;}
+#logout_heading{ margin-left: -42%;}
+#footer{ height: 103px; width: 100%; display: flex; align-items: center; justify-content: center; background-color: #45064d; flex-direction: column;}
+#devloper_details{ font-size: 30px; color:aqua; margin-top: -5px;}
+#Developer_contact{ font-size: 20px; margin:0; color: aqua; margin-top: -20px; font-weight: lighter;}
+/* ending main profile body styles */   

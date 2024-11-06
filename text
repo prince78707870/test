@@ -1,0 +1,7 @@
+<div id="videoList">
+                <p>Video 1</p>
+                <div id="button_div">
+                    <button id="play_button">Play</button>
+                    <button id="delete_button">Delete</button>
+                </div>
+            </div>

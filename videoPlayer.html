@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player Page</title>
+    <link rel="stylesheet" href="videoPlayer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="profile_div">
+        <div id="profile_photo"></div>
+    </div>
+    
+    <h1 id="video_heading"><i class="fa-solid fa-video"></i> Video Player</h1>
+    <div id="video_div">
+        <video id="vedio_content" controls="controls">
+            <source src=>
+        </video>
+    </div>
+    <i class="fa-solid fa-cloud-arrow-up" id="videoUpload_icon"></i>
+    <div id="range_div">
+        <input type="range" id="video_range">
+    </div>
+    <div id="controls_div">
+        <div id="pause_play">
+            <i class="fa-solid fa-backward" id="previous_icon"></i>
+            <i class="fa-solid fa-play" id="play_icon"></i>
+            <i class="fa-solid fa-pause" id="pause_icon"></i>
+            <i class="fa-solid fa-forward" id="next_icon"></i>
+        </div>
+        <p id="duration">00:00/00:00</p>
+        <div id="volume_setting">
+            <i class="fa-solid fa-volume-high" id="volume"></i>
+            <i class="fa-solid fa-gear" id="setting"></i>
+            <i class="fa-solid fa-expand" id="fullscreen"></i>
+        </div>
+    </div>
+    <button id="video_upload_btn">Add Video</button>
+    <div id="mainPlaylist_div">
+        <div id="addList_div">
+            <div id="addVideo_div">
+                <h1 id="addVideo_heading">Add Videos</h1>
+                <input type="text" id="video_name" placeholder="Enter Your Video Name....">
+                <input type="text" id="video_link" placeholder="Enter Your Video Link....">
+                <button id="add_btn">Upload</button>
+            </div>
+            <!--Playlist div-->
+            <div id="header">
+                <h3 id="Playlist_heading">Playlist</h2>
+                    <input type="search" placeholder="Search For Your Video Here...." id="video_search">
+            </div>
+        </div>
+    </div>
+
+    <script src="videoPlayer.js"></script>
+</body>
+</html>

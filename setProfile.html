@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>set profile photo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="upload_profile_div">
+        <div id="profile_div"><i class="fa-solid fa-user" id="profile_account_icon"></i></div><i class="fa-solid fa-plus"></i>
+        <input type="file" accept="image/*" id="input_profile">
+        <center><h1 id="profile_div_username"></h1></center>
+        <button id="profile_div_nextbtn">Next<i class="fas fa-angle-double-right"></i></button>
+        <i class="fa-solid fa-plus" id="plus_icon"></i>
+    </div>
+
+    <!-- The main profile/front page coding start-->
+     <div id="main_container">
+        <header>
+            <div id="profile_header"></div>
+            <div id="profile_picture"></div>
+            <h1 id="main_container_username"></h1>
+        </header>
+        <div id="apps_section">
+            <div id="contact_section"><i class="fa-solid fa-address-book" id="contact_icon"></i><small id="contact_heading">Contact</small></div>
+            <div id="videoPlayer_section"><i class="fa-solid fa-circle-play" id="video_icon"></i><small id="video_heading">Video Player</small></div>
+            <div id="logout_section"><i class="fa-solid fa-right-from-bracket" id="logout_icon"></i><small id="logout_heading">Logout</small></div>
+        </div>
+        <div id="footer">
+            <h3 id="devloper_details">Developed By : Prince Kumar</h3>
+            <h4 id="Developer_contact">kumarprincr7870@gmail.com</h4>
+        </div>
+     </div>
+
+    <script src="setProfile.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+*{ box-sizing: border-box; margin: 0; padding: 0;}
+body{ background-color: rgb(234, 193, 234);}
+#profile_div{ height: 180px; width: 200px; background-image: url(images/violetFlag.png); background-size: 90%; background-repeat: no-repeat; position: fixed; left:0; top: 0;}
+#profile_photo{ height:150px; width:150px; border: 3px solid white; border-radius: 50%; margin: 24px 0 0 30px; box-shadow: 5px 5px 5px black;}
+#contact_heading{ text-align: center; font-size: 40px; margin-top: 20px;}
+#search_box{ height: 50px; width: 40%; margin: 20px 0 0 33%; font-size: 20px; border: none; background-color: rgb(234, 193, 234); border-bottom: 2px solid black; padding: 10px 0 0 10px; outline: none;}
+#addContact_icon{ position: fixed; bottom: 80px; font-size: 70px; right: 10%; color: rgb(104, 22, 112); cursor: pointer;}
+#add_contactDiv{ height: 300px; width: 40%; background-color: rgb(238, 244, 89); border-radius: 20px; position: fixed; left: 33%; top: 20%; box-shadow: 5px 5px 5px black; display: none;}
+#add_contact_heading{ font-size: 30px; text-align: center; margin-top: 20px;}
+#add_name,#add_number{ height: 50px; width: 80%; margin:20px 0 10px 10%; border: 2px solid rgb(104, 22, 112); border-left: 6px solid rgb(104, 22, 112); padding: 10px 0 0 10px; font-size: 20px; outline: none;}
+#buttonDiv{ height: 100px; width: 300px;  margin: 0 auto; display: flex; align-items: center; justify-content: center;}
+#save,#close{ height: 50px; width: 130px; font-size: 25px; color: white; margin: 0 2.5px 0 2.5px; background: linear-gradient(to right, #E100FF, #7F00FF); cursor: pointer; border: none}
+#contact_div{ height: 570px; width: 40%; margin: 10px 0 0 33%; border-radius: 20px; overflow-y: scroll; position: relative;}
+#saved_contacts{height:25%; background-color: white; border-radius: 20px; padding: 20px; margin-bottom: 10px;}
+#hr_tag{ width: 70%; height: 5px; border-radius: 10px; background-color: rgb(104, 22, 112);}
+#saved_contacts p{ font-size: 30px; margin: 10px 0 10px 20px;}
+#save_edit_div{ height:50px; width: 25%; margin: -15% 0 0 75%;}
+#save_edit_div i{ font-size: 50px; margin: 0px 20px 0 0; color: rgb(104, 22, 112)};
